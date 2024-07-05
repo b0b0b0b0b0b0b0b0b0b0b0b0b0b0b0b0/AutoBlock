@@ -34,13 +34,13 @@ diamond_ore: DIAMOND:DIAMOND_BLOCK:9:1
 # При добыче золотой руды (gold_ore) будет проверяться инвентарь на наличие 9 золотых слитков (GOLD_INGOT).
 # Если слитков достаточно, они будут преобразованы в 1 золотой блок (GOLD_BLOCK).
 
-gold_ore: GOLD_ORE:GOLD_BLOCK:9:1
+gold_ore: GOLD_INGOT:GOLD_BLOCK:9:1
 
 # Пример для железа:
 # При добыче железной руды (iron_ore) будет проверяться инвентарь на наличие 9 железных слитков (IRON_INGOT).
 # Если слитков достаточно, они будут преобразованы в 1 железный блок (IRON_BLOCK).
 
-iron_ore: GOLD_ORE:IRON_BLOCK:9:1
+iron_ore: IRON_INGOT:IRON_BLOCK:9:1
 ```
 ## EN
 ```yaml
@@ -57,13 +57,13 @@ diamond_ore: DIAMOND:DIAMOND_BLOCK:9:1
 # When mining gold ore (gold_ore), the inventory will be checked for 9 gold ingots (GOLD_INGOT).
 # If there are enough ingots, they will be converted into 1 gold block (GOLD_BLOCK).
 
-gold_ore: GOLD_ORE:GOLD_BLOCK:9:1
+gold_ore: GOLD_INGOT:GOLD_BLOCK:9:1
 
 # Example for iron:
 # When mining iron ore (iron_ore), the inventory will be checked for 9 iron ingots (IRON_INGOT).
 # If there are enough ingots, they will be converted into 1 iron block (IRON_BLOCK).
 
-iron_ore: GOLD_ORE:IRON_BLOCK:9:1
+iron_ore: IRON_INGOT:IRON_BLOCK:9:1
 
 ```
 
