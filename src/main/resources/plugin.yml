@@ -1,0 +1,13 @@
+name: AutoBlock
+version: '${project.version}'
+main: org.b0b0bo.autoblock.AutoBlock
+commands:
+  abk:
+    description: AutoBlock commands
+    usage: /abk reload
+    permission: autoblock.reload
+
+permissions:
+  autoblock.reload:
+    description: Allows the player to reload the AutoBlock configuration
+    default: op
