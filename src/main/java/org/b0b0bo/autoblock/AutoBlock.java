@@ -1,6 +1,7 @@
 package org.b0b0bo.autoblock;
 import org.b0b0bo.autoblock.commands.ReloadCommand;
 import org.b0b0bo.autoblock.util.ConversionRule;
+import org.b0b0bo.autoblock.util.ItemPickupListener;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.Material;
